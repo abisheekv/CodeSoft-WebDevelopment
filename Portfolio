@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header class="header">
+    <h1>John Doe</h1>
+    <p>Full‑Stack Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="me.jpg" alt="My photo" class="profile-img">
+    <p>I am a CSE student interested in full‑stack development and Java backend.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, Spring Boot</li>
+      <li>JavaScript, React</li>
+      <li>SQL, MongoDB</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>URL Shortener</h3>
+      <p>Node + Express + MongoDB mini project.</p>
+    </div>
+    <div class="project-card">
+      <h3>Hotel Reservation System</h3>
+      <p>Java OOP console app for bookings.</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" target="_blank">Download my resume (PDF)</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: you@example.com</p>
+    <p>Phone: +91‑90000 00000</p>
+  </section>
+
+  <footer>
+    <p>© 2025 John Doe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
